@@ -4,7 +4,7 @@
 #include <sys/wait.h>
 #include <sys/types.h>
 
-void findIthLargest(int *arr, int n, int i)
+void findIthLargest(int *arr, int n, int i) 
 {
     // Sort the array in descending order
     for (int j = 0; j < n - 1; j++)
