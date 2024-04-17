@@ -3,10 +3,10 @@
 Let there be a C structure as defined below for storing student information.
 
 struct student 
-{
-         int roll;
-         char name[100];
-}
+{   
+         int roll;   
+         char name[100];   
+}   
 
 There are 2 processes, P1 and P2 (parent and child process, respectively), where P1 fills up an array "struct student ss[100]" with information (roll number and name) of n students (value of n to be taken as input) from the user and sends those structures to its child process P2 over a pipe (the IPC tool).
 
