@@ -2,13 +2,13 @@
 
 Let there be a C structure as defined below for storing student information.
 
-struct student 
-{
-         int roll;
-         char name[100];
-         void *data_p;
-         int data_size;
-}
+struct student    
+{   
+         int roll;    
+         char name[100];    
+         void *data_p;     
+         int data_size;     
+}    
 
 The roll and name fields store the roll number and name of a student as in the original assignment. The pointer field data_p points to data_size (the 4th field of the structure) number of bytes, that stores some information about the student (you decide what additional information to keep in this field. Please note that memory space has to be allocated (by malloc, caloc, alloc, ...) for storing this additional information, and data_p will just point to that allocated space, whereas, data_size will hold the size (that is, the number of bytes) of that space.
 
