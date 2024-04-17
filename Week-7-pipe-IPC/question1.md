@@ -2,7 +2,7 @@
 
 Let there be a C structure as defined below for storing student information.
 
-struct student 
+struct student   
 {   
          int roll;   
          char name[100];   
